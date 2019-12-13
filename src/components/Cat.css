@@ -1,0 +1,37 @@
+.Cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: darkgreen;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.Cat:hover {
+  background-color: #000a64c2;
+}
+
+.Cat:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.Cat img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.Cat span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Cat button {
+  cursor: pointer;
+}

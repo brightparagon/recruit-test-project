@@ -1,0 +1,16 @@
+@media (prefers-reduced-motion: no-preference) {
+  .MasterCat {
+    animation: cat-spin infinite 3s linear;
+    width: 150px;
+    height: auto;
+  }
+}
+
+@keyframes cat-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
